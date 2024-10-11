@@ -1,0 +1,16 @@
+*{
+    background-color: greenyellow;
+}
+h1{
+    color: blue; text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.fondoBlanco{background-color: white;}
+.resaltadoAmarillo{background-color: yellow;}
+.pestañaActual{
+    background-color: olivedrab;
+    color: white;
+}
