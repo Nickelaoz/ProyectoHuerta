@@ -1,16 +1,89 @@
-*{
+* {
     background-color: greenyellow;
 }
-h1{
-    color: blue; text-align: center;
+h1 {
+    color: blue; 
+    text-align: center;
 }
-a{
+
+h2 {
+    text-align: center;
+}
+
+a {
     text-decoration: none;
     color: black;
 }
-.fondoBlanco{background-color: white;}
-.resaltadoAmarillo{background-color: yellow;}
-.pestañaActual{
+
+header {
+    text-align: center;
+}
+
+header span {
+display: inline-block;
+margin: 20px;
+}
+
+nav{
+margin-bottom: 50px;
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra los elementos en el nav */
+    border: 0cap;
+}
+
+nav ul li {
+    font-size:larger;
+    display: inline-block; /* Muestra los elementos en línea */
+    margin-right: 10px; /* Espacio entre elementos */
+    border: 3px;
+    border-style: solid;
+    border-color: darkgreen;
+    border-radius: 16%;
+    padding: 5px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+iframe{
+    margin-bottom: 20px;
+}
+
+.fondoBlanco {
+    background-color: white;
+}
+
+.resaltadoAmarillo {
+    background-color: yellow;
+}
+
+.pestañaActual {
     background-color: olivedrab;
     color: white;
+}
+
+.centrado {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+#redes {
+    list-style-type: none; /* Elimina los puntos de lista */
+}
+
+#creditos {
+    text-align: right;
+}
+
+#creditos span p:hover {
+    text-decoration: underline; /* Muestra un subrayado cuando el usuario pasa el ratón */
 }
