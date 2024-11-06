@@ -5,9 +5,11 @@
 h1 {
     color: blue; 
     text-align: center;
+    font-size: 3em;
 }
 
 h2 {
+    font-size: 2em;
     text-align: center;
 }
 
@@ -18,11 +20,22 @@ a {
 
 header {
     text-align: center;
+    background-color: #C0C78C;
 }
 
 header span {
-display: inline-block;
-margin: 20px;
+    display: inline-block;
+    margin: 20px;
+}
+
+main {
+    background-color: #A6B37D;
+}
+
+/* Otro color FEFAE0*/
+
+footer {
+    background-color: #B99470;
 }
 
 nav{
